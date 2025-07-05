@@ -20,3 +20,6 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+/mon-app/node_modules
+/mon-app/src/image
+/mon-app/public
