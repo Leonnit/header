@@ -42,8 +42,8 @@ box-shadow: 0 2px 20px rgba(44,36,22,0.06);
 
 .logo {
 font-family: 'Cormorant Garamond', serif;
-font-size: 15px;
-font-weight: 600;
+font-size: 30px;
+font-weight: bold;
 letter-spacing: 4px;
 text-transform: uppercase;
 color: var(--dark);
@@ -57,7 +57,8 @@ list-style: none;
 }
 
 .nav-links a {
-font-size: 10px;
+font-size: 16px;
+font-family: 'Cormorant Garamond', serif;
 letter-spacing: 2.5px;
 text-transform: uppercase;
 color: var(--light-text);
@@ -186,7 +187,7 @@ font-family: 'Jost', sans-serif;
 section { padding: 80px 32px; }
 
 .section-label {
-font-size: 9px;
+font-size: 16px;
 letter-spacing: 3.5px;
 text-transform: uppercase;
 color: var(--brown);
@@ -215,7 +216,7 @@ border-bottom: 1px solid var(--sand);
 }
 
 .banner p {
-font-size: 10px;
+font-size: 15px;
 letter-spacing: 3px;
 text-transform: uppercase;
 color: var(--brown);
@@ -234,7 +235,7 @@ margin-bottom: 20px;
 }
 
 .banner .desc {
-font-size: 13px;
+font-size: 20px;
 color: var(--light-text);
 line-height: 1.8;
 max-width: 400px;
@@ -243,7 +244,7 @@ font-weight: 300;
 }
 
 .arrow-link {
-font-size: 10px;
+font-size: 15px;
 letter-spacing: 3px;
 text-transform: uppercase;
 color: var(--dark);
@@ -255,7 +256,7 @@ transition: gap 0.3s;
 }
 
 .arrow-link:hover { gap: 16px; }
-.arrow-link::before { content: '→'; font-size: 14px; }
+.arrow-link::before { content: '→'; font-size: 18px; }
 
 /* ── STORY ── */
 .story {
@@ -282,7 +283,7 @@ transition: transform 0.6s ease;
 .story-img:hover img { transform: scale(1.04); }
 
 .story-body {
-font-size: 13px;
+font-size: 20px;
 line-height: 1.9;
 color: var(--light-text);
 font-weight: 300;
@@ -310,7 +311,7 @@ line-height: 1;
 }
 
 .stat-label {
-font-size: 9px;
+font-size: 16px;
 letter-spacing: 2px;
 text-transform: uppercase;
 color: var(--light-text);
@@ -369,7 +370,7 @@ margin-bottom: 6px;
 }
 
 .service-desc {
-font-size: 11px;
+font-size: 16px;
 letter-spacing: 1px;
 color: rgba(255,255,255,0.75);
 font-weight: 300;
@@ -388,7 +389,7 @@ transition: all 0.3s 0.05s;
 .process-header .section-label { display: block; text-align: center; }
 
 .process-eyebrow {
-font-size: 10px;
+font-size: 15px;
 letter-spacing: 2px;
 text-transform: uppercase;
 color: var(--light-text);
@@ -423,7 +424,7 @@ margin-bottom: 14px;
 
 .step-title {
 font-family: 'Cormorant Garamond', serif;
-font-size: 18px;
+font-size: 20px;
 font-weight: 400;
 letter-spacing: 1.5px;
 text-transform: uppercase;
@@ -432,7 +433,7 @@ margin-bottom: 10px;
 }
 
 .step-text {
-font-size: 12.5px;
+font-size: 16px;
 line-height: 1.8;
 color: var(--light-text);
 font-weight: 300;
@@ -478,7 +479,7 @@ transition: all 0.3s;
 .portfolio-item:hover .portfolio-caption { opacity: 1; transform: translateY(0); }
 
 .portfolio-caption span {
-font-size: 10px;
+font-size: 15px;
 letter-spacing: 2.5px;
 text-transform: uppercase;
 display: block;
@@ -513,7 +514,7 @@ flex-wrap: wrap;
 }
 
 .footer-links a {
-font-size: 9px;
+font-size: 16px;
 letter-spacing: 2.5px;
 text-transform: uppercase;
 color: rgba(250,248,245,0.45);
@@ -524,7 +525,7 @@ transition: color 0.2s;
 .footer-links a:hover { color: var(--warm-white); }
 
 .footer-copy {
-font-size: 10px;
+font-size: 15px;
 letter-spacing: 1px;
 color: rgba(250,248,245,0.25);
 border-top: 1px solid rgba(250,248,245,0.08);
@@ -577,7 +578,7 @@ section { padding: 60px 24px; }
 .nav-links.open { right: 0; }
 
 .nav-links a {
-    font-size: 11px;
+    font-size: 16px;
     letter-spacing: 3px;
     color: var(--text);
 }
